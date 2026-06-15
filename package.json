@@ -3,7 +3,8 @@
     "name": "startbootstrap-clean-blog",
     "version": "5.0.7",
     "scripts": {
-        "start": "node_modules/.bin/gulp watch"
+        "start": "node_modules/.bin/gulp watch",
+        "test": "node tests/equation.test.js"
     },
     "description": "Clean Blog is a Medium inspired blog theme for Bootstrap.",
     "keywords": [
